@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maricris Lavilla - Portfolio</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+
+    <!-- Home Section -->
+    <section id="home">
+        <header>
+            <h1>Maricris Lavilla</h1>
+            <img src="profile-picture.jpg" alt="Your Profile Picture">
+            <p>Welcome to my portfolio!</p>
+        </header>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about-me">
+        <h2>About Me</h2>
+        <p>I am a mom of four, currently in a health insurance and billing industry, Medical Biller, 
+            my career goal is to become a Software Engineer, and my personal is Travel.</p>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project Title 1</h3>
+            <img src="project-image1.jpg" alt="Project 1 Image">
+            <p>Projects:TBD.</p>
+        </div>
+        <div class="project">
+            <h3>Project Title 2</h3>
+            <img src="project-image2.jpg" alt="Project 2 Image">
+            <p>Project:TBD.</p>
+        </div>
+        <!-- Add more projects as needed -->
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Python</li>
+            <!-- Add more skills as needed -->
+        </ul>
+        <!-- You can replace the list with a skill bar or chart -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact</h2>
+        <form action="contact-form-handler.php" method="POST">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send</button>
+        </form>
+        <p>Email: your.email@example.com</p>
+        <p>Social: <a href="https://linkedin.com/in/yourprofile">LinkedIn</a> | 
+            <a href="https://github.com/Kleng924/html_mini_project">GitHub</a></p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Maricris Lavilla. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
